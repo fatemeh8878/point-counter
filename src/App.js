@@ -36,11 +36,10 @@ const App = () => {
           setPoint((prev) => prev - 4);
         }
       }
-    
     }
   }, [value]);
   return (
-    <div style={{ background: "#B270A2", height: "100vh" }}>
+    <div>
       <div
         style={{ position: "absolute", marginTop: "10%", marginRight: "30%" }}
       >
