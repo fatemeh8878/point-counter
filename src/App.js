@@ -36,9 +36,7 @@ const App = () => {
           setPoint((prev) => prev - 4);
         }
       }
-      // if (space[0].includes(letter)) {
-      // setPoint((prev) => prev - 2);
-      // }
+    
     }
   }, [value]);
   return (
