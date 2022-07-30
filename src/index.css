@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "iransans";
+  src: url("./assets/fonts/iransans/iransans.eot") format("embedded-opentype"),
+    url("./assets/fonts/iransans/iransans.woff2") format("woff2"),
+    url("./assets/fonts/iransans/iransans.woff") format("woff"),
+    url("./assets/fonts/iransans/iransans.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  font-family: "iransans" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .muirtl-1d3z3hw-MuiOutlinedInput-notchedOutline { */
+/* } */
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border: "2px solid #7747c0 !important";
+}
